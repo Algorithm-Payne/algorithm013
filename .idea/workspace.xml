@@ -6,10 +6,6 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select>
       <path>
@@ -21,9 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="673e7ed8-1784-48d0-aad9-f1ab6aa04d7e" name="Default Changelist" comment="&quot;Add&quot;">
-      <change afterPath="$PROJECT_DIR$/Week_07/generate-parentheses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_07/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_07/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week_07/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week_07/demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +64,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonProgramData/AI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sundries" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,6 +72,35 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm013" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week_07" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week_07/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.demo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -94,6 +117,8 @@
       <workItem from="1599842649821" duration="184000" />
       <workItem from="1599843478714" duration="1945000" />
       <workItem from="1599880198436" duration="2170000" />
+      <workItem from="1599996678294" duration="1349000" />
+      <workItem from="1600015913252" duration="5132000" />
     </task>
     <task id="LOCAL-00001" summary="“as”">
       <created>1599838705386</created>
@@ -116,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599845131916</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Add&quot;">
+      <created>1599996700409</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599996700409</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,10 +230,42 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="198" y="105" width="1484" height="864" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599842832875" />
-    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1599841502633">
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1600027913838">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1599841502633" />
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1600027913838" />
+    <state width="913" height="225" key="GridCell.Tab.0.bottom" timestamp="1600027919141">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="913" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600027919141" />
+    <state width="913" height="225" key="GridCell.Tab.0.center" timestamp="1600027919141">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="913" height="225" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600027919141" />
+    <state width="913" height="225" key="GridCell.Tab.0.left" timestamp="1600027919141">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="913" height="225" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600027919141" />
+    <state width="913" height="225" key="GridCell.Tab.0.right" timestamp="1600027919141">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="913" height="225" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600027919141" />
+    <state width="913" height="363" key="GridCell.Tab.1.bottom" timestamp="1599936994319">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="913" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599936994319" />
+    <state width="913" height="363" key="GridCell.Tab.1.center" timestamp="1599936994319">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="913" height="363" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599936994319" />
+    <state width="913" height="363" key="GridCell.Tab.1.left" timestamp="1599936994319">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="913" height="363" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599936994319" />
+    <state width="913" height="363" key="GridCell.Tab.1.right" timestamp="1599936994319">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="913" height="363" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599936994319" />
     <state x="806" y="303" key="RollbackChangesDialog" timestamp="1599842246552">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -214,13 +278,16 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="198" y="105" width="1484" height="864" key="ShowDiffWithBranchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599842832875" />
-    <state x="532" y="270" key="Vcs.Push.Dialog.v2" timestamp="1599845151540">
+    <state x="532" y="270" key="Vcs.Push.Dialog.v2" timestamp="1599996710163">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="532" y="270" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599845151540" />
+    <state x="532" y="270" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599996710163" />
     <state x="753" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599838730898">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="753" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1599838730898" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algorithm013$demo.coverage" NAME="demo Coverage Results" MODIFIED="1600017288233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week_07" />
   </component>
 </project>

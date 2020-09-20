@@ -31,8 +31,3 @@
 #     queue1, queue2 = [], []  # 亦可使用{}，快速去中
 #     queue1.append(start)
 #     queue2.appned(end)
-
-a = [{"action": "searchapi.SearchPerson",
-      "parameters": {"offset": 0, "size": 20, "query": "大数据", "include": ["agg", "intelli", "topics"],
-                     "aggregation": ["gender", "h_index", "nation", "lang"]}}]
-print(type(a))
