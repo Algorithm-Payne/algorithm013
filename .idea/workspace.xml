@@ -6,19 +6,30 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-    </expand>
-    <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-    </select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="673e7ed8-1784-48d0-aad9-f1ab6aa04d7e" name="Default Changelist" comment="&quot;Add&quot;">
+      <change afterPath="$PROJECT_DIR$/Week_09/fib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/house-robber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_09/unique-paths.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_04/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_04/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_06/a_Fib.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week_06/a_Fib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_07/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_07/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week_07/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week_07/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_08/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_08/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_09/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_09/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +60,10 @@
         <option value="https://github.com/Algorithm-Payne/algorithm013.git" />
       </set>
     </option>
+  </component>
+  <component name="JupyterTrust" id="6b41202c-f3bf-4af3-976e-2f9001f6ec95" />
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="88p8w8cv" />
   </component>
   <component name="ProjectId" id="1hN5NrlWkKBssOsqRF4PCOQf1eq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -102,6 +117,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>

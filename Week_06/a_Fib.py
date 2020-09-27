@@ -1,6 +1,5 @@
 from typing import Any, List
 
-
 #  一维无限制DP
 
 # 斐波那契数列
@@ -46,7 +45,8 @@ class Solution1:
 
 # 法二 递归 + 减枝（缓存）
 class Solution2:
-    @functools.lru_cache()
+    from functools import lru_cache
+    @lru_cache(maxsize=None)
     def fib(self, N: int) -> int:
         if N <= 1:
             return N
@@ -65,15 +65,15 @@ class Solution3:
         return dp[N - 1]
 
 
-# 法四：DP
-class Solution4:
-    def fib(self, N: int) -> int:
-        curr, prev1, prev2 = 0, 1, 1
-        for i in range(3, N + 1):
-            curr = prev1 + prev2
-            prev2 = prev1
-            prev1 = curr
-        return curr
+# # 法四：DP
+# class Solution4:
+#     def fib(self, N: int) -> int:
+#         curr, prev1, prev2 = 0, 1, 1
+#         for i in range(3, N + 1):
+#             curr = prev1 + prev2
+#             prev2 = prev1
+#             prev1 = curr
+#         return curr
 
 
 # 法五：简化DP

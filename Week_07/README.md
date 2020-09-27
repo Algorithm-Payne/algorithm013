@@ -98,7 +98,7 @@ def parent(self, p, i):
 
 DFS：depth first search 深度优先搜索
 
-~~~python
+~~~python3
 # DFS 递归
 visited = set() 
 
@@ -134,7 +134,7 @@ def DFS(self, tree):
 
 BFS：Breadth first search 广度优先搜索
 
-~~~Python
+~~~Python3
 def BFS(graph, start, end):
     visited = set()
 	queue = [] 
@@ -153,7 +153,7 @@ def BFS(graph, start, end):
 
 ### 双向BFS
 
-```python
+```python3
 def dBFS(graph, start, end):
     visited = set()
     front = []
@@ -177,7 +177,7 @@ def dBFS(graph, start, end):
 
 启发式搜索（Heuristic Search, A*）,Heuristic指的是根据某一些条件，我们不断的优化搜索方向，本质上用的就是利用优先级进行查找。核心是在定义在估价函数, h(n)。
 
-```python
+```python3
 def AstarSearch(graph, start, end):
 
     pq = collections.priority_queue() # 优先级 —> 估价函数

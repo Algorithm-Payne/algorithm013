@@ -12,7 +12,7 @@
 
 递归实现：(Python)
 
-```python
+```python3
 # 二叉树
 
 visted = set()
@@ -38,7 +38,7 @@ def DFS(next.node, visited):
 
 非递归实现（基于栈）：
 
-```python
+```python3
 def DFS(self, tree):
 	if tree.root is None:
         return []
@@ -60,7 +60,7 @@ def DFS(self, tree):
 
 循环实现（基于队列）：
 
-~~~python
+~~~python3
 def BFS(graph, start):
     visited = set()
     queue = []
@@ -120,7 +120,7 @@ def BFS(graph, start):
 
 能够通过索引访问（index accessible）
 
-```python
+```python3
 def binary_search(arry, values):
     left = 0
     right = len(arry) - 1

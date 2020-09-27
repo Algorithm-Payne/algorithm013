@@ -61,15 +61,15 @@ x & ~ x = > 0
 
 - [布隆过滤器的原理和实现](https://www.cnblogs.com/cpselvis/p/6265825.html)
 - [使用布隆过滤器解决缓存击穿、垃圾邮件识别、集合判重](https://blog.csdn.net/tianyaleixiaowu/article/details/74721877)
-- [布隆过滤器 Python 代码示例](https://shimo.im/docs/UITYMj1eK88JCJTH)
-- [布隆过滤器 Python 实现示例](https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/)
-- [高性能布隆过滤器 Python 实现示例](https://github.com/jhgg/pybloof)
+- [布隆过滤器 python3 代码示例](https://shimo.im/docs/UITYMj1eK88JCJTH)
+- [布隆过滤器 python3 实现示例](https://www.geeksforgeeks.org/bloom-filters-introduction-and-python3-implementation/)
+- [高性能布隆过滤器 python3 实现示例](https://github.com/jhgg/pybloof)
 - [布隆过滤器 Java 实现示例 1](https://github.com/lovasoa/bloomfilter/blob/master/src/main/java/BloomFilter.java)
 - [布隆过滤器 Java 实现示例 2](https://github.com/Baqend/Orestes-Bloomfilter)
 
-布隆过滤器Python实现
+布隆过滤器python3实现
 
-```python
+```python3
 from bitarray import bitarray 
 import mmh3 
 class BloomFilter: 
@@ -96,7 +96,7 @@ print (bf.lookup("yyj"))
 
 LRU Cache 
 
-```python
+```python3
 class LRUCache(object): 
 
 	def __init__(self, capacity): 
@@ -148,7 +148,7 @@ class LRUCache(object):
 - 每次比较完成后，长度N - 1
 - 重复完成1-3步骤
 
-```python
+```python3
 def bubbleSort(nums:List[int]) -> List[int]:
     for i in range(len(nums) - 1):
         for j in range(len(nums) - 1 - i):
@@ -161,7 +161,7 @@ def bubbleSort(nums:List[int]) -> List[int]:
 
 减少“已完成”排序比对，设置flag， 进行剪枝
 
-~~~python
+~~~python3
 def batter_bubbleSort(nums:List[int]) -> List[int]:
     for i in range(len(nums) - 1):
         flag = True
@@ -188,7 +188,7 @@ def batter_bubbleSort(nums:List[int]) -> List[int]:
 - 保存最小数的索引
 - 将最小数放置在相对最前(或最后)
 
-```python
+```python3
 def selectionSort(nums:List[int]) -> List[int]:
     for i in range(len(nums) - 1):
         min = i
@@ -239,7 +239,7 @@ def insertSort(nums: List[int]):
 - 按增量序列个数k，对序列进行k 趟排序；
 - 每趟排序，根据对应的增量ti，将待排序列分割成若干长度为m 的子序列，分别对各子表进行直接插入排序。仅增量因子为1 时，整个序列作为一个表来处理，表长度即为整个序列的长度。
 
-```python
+```python3
 def shellSort(nums: List[int]) -> List[int]:
     n = len(nums)
     gap = int(n / 2)
@@ -269,7 +269,7 @@ def shellSort(nums: List[int]) -> List[int]:
 
 重复步骤3直到某一指针超出序列尾
 
-```python
+```python3
 def Merge(left,right):
     r, l=0, 0
     result=[]
@@ -303,7 +303,7 @@ def MergeSort(lists):
 - 重新排序数列，所有元素比基准值小的摆放在基准前面，所有元素比基准值大的摆在基准的后面（相同的数可以到任一边）。在这个分区退出之后，该基准就处于数列的中间位置。这个称为分区（partition）操作；
 - 递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序。
 
-```python
+```python3
 def quickSort(nums):    
     if len(nums) >= 2:  # 递归入口及出口        
         mid = nums[len(nums)//2]  # 选取基准值，也可以选取第一个或最后一个元素        
